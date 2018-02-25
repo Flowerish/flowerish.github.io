@@ -5,30 +5,43 @@ li {
 nav {
     margin-left: 570px;
     margin-bottom: 10px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
 }
 
 nav li:hover {
-    color: yellow;
+    color: rgb(17, 153, 153);
 }
-.block {
-    width: 470px;
+.task2 {
+  width: 470px;
+  margin-left: 450px; 
+  border: 1px #626262 solid;
+  padding: 20px 20px 20px 40px;
+}
+h5 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+}
+h2 {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    font-size: 14px;
+    width: 460px;
+    line-height: 24px;
+}
+.task3 {
+    width: 960px;
     margin: 0 auto;
-    font-family: "Playfair Display";
 }
-.border .block {
-    border: 1px solid #626262;
-    border-shadow: 1px #626262;
-    padding: 8px 0px 8px 30px;
-}
-.newtask {
-width: 960px;
-font-family: "Playfair Display";
-}
-.newtask .task3 {
-display: inline-block;
-   left: 20%;
-   width: 480px;
-  position: relative;
-  padding: 10px;
+.task3 .articles {
+    display: inline-block;
+    width: 470px;
 }
