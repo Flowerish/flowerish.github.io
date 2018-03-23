@@ -1,0 +1,12 @@
+#logo{
+    font-family: Roboto;
+    font-size: 30px;
+}
+#logo::first-letter {
+    color: #1abc9c;
+}
+
+#nav li {
+    display: inline;
+    list-style-type: none;
+}
