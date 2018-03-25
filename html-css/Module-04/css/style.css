@@ -86,7 +86,7 @@ p {
     padding-bottom: 30px;
 }
 h4.bottomline::after {
-    content: url("images/rectangle-35.png");
+    content: url(../images/rectangle-35.png);
 }
 span.button {
     background: #4ec6ab;
