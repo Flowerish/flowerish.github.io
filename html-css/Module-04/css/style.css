@@ -1,12 +1,100 @@
-#logo{
+.logo {
     font-family: Roboto;
     font-size: 30px;
+    font-weight: 200;
+    margin-left: 150px;
+    margin-top: 20px;
 }
-#logo::first-letter {
+.logo::first-letter {
+    color: #1abc9c;
+    font-weight: 800;
+}
+.nav ul {   
+    float: right;
+    left: -10%;
+    position: relative;
+    margin-top: -30px;
+}
+li {
+    display: inline-flex;
+}
+li a {
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: bold;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #0f0101;
+    text-decoration: none;
+}
+li.first_tab a {
     color: #1abc9c;
 }
-
-#nav li {
-    display: inline;
-    list-style-type: none;
+h4.center {
+   text-align: center; 
+   font-size: 48px;
+   font-family: Roboto;
+   color: #515151;
+   text-transform: uppercase;
+}
+.line {
+    border-bottom: 5px solid #1abc9c;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: -41px;
+}
+.row .column {
+    display: inline-block;
+    width: 260px;
+    padding-left: 70px;
+}
+h3 {
+    display: inline-block;
+}
+h3.one {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #323232;
+    padding: 10px 31px 7px 11px;
+}
+h3.two {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 15px 7px 11px;
+    background-color: #DCDCDC;
+}
+.row .column2 {
+    display: inline-block;
+    width: 420px;
+}
+.column2 h4 {
+    color: #555252;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Open Sans;
+    width: 370px;
+}
+p {
+    font-size: 14px;
+    font-family: Open Sans;
+    line-height: 26px;
+    font-weight: 400; 
+    width: 350px;  
+    padding-bottom: 30px;
+}
+h4.bottomline::after {
+    content: url("images/rectangle-35.png");
+}
+span.button {
+    background: #4ec6ab;
+    padding: 15px 35px 18px 35px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+.row .column2 {
+    padding: 22px 2px 10px 35px;
 }
