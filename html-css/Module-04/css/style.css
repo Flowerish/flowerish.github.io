@@ -70,10 +70,10 @@ h3.two {
     background-color: #DCDCDC;
 }
 h3.one:hover {
-    background: #626262;
+    background: #1abc9c;
 }
 h3.two:hover {
-    background: #4ec6ab;
+    background: #1abc9c;
 }
 .row .column2 {
     display: inline-block;
@@ -81,8 +81,12 @@ h3.two:hover {
     padding-left: 80px;
 }
 span.title::after {
-    content: url(images/rectangle8.png);
+    content: "";
     display: block;
+    height: 7px;
+    width: 164px;
+    background-color: #1abc9c;
+    margin: 32px auto 93px auto;
 }
 p {
     font-size: 14px;
