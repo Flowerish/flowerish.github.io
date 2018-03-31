@@ -296,3 +296,7 @@ li a {
     display: block;
     clear: both;
   }
+  .section .product {
+    margin-left: 110px;
+    margin-right: -58px;
+}
