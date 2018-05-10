@@ -1,0 +1,50 @@
+body {
+    width: 1620px;
+}
+.logo {
+    color: #95e1d3;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-left: 250px;
+}
+.nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 850px;
+    margin-top: -22px;
+}
+.nav li a {
+    padding-right: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #95e1d3;
+}
+li.first_tab a {
+    color: #f38181;
+}
+header {
+    margin-top: 27px;
+}
+h4.content_title {
+    font-size: 24px;
+    font-family: 'Kaushan Script';
+    color: #333333;
+}
+h2.subtitle {
+    color: #333333;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.service h2 {
+    margin-left: 560px;
+}
+.service h4 {
+    margin-left: 618px;
+}
+h4.content_title, h2.subtitle {
+    margin-top: 47px;
+}
